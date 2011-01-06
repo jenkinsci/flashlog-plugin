@@ -19,6 +19,13 @@
     </description>
     <url>http://wiki.hudson-ci.org/display/HUDSON/FlashLog+Plugin</url>
 
+    <distributionManagement>
+        <repository>
+            <id>java.net-m2-repository</id>
+            <url>http://maven.hudson-labs.org/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
+
     <developers>
         <developer>
             <id>ddragosd</id>
@@ -43,9 +50,10 @@
     </pluginRepositories>
 
     <scm>
-        <connection>scm:git:git://github.com/ddragosd/hudson-flashlog-plugin</connection>
-        <developerConnection>scm:git:git@github.com:ddragosd/hudson-flashlog-plugin</developerConnection>
-        <url>http://github.com/ddragosd/hudson-flashlog-plugin</url>
+        <connection>scm:git:git://github.com/hudson/flashlog-plugin</connection>
+        <developerConnection>scm:git:git@github.com:hudson/flashlog-plugin</developerConnection>
+        <url>http://github.com/hudson/flashlog-plugin</url>
     </scm>
+
 
 </project>
